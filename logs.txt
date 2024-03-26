@@ -1,0 +1,29 @@
+commit 58311c289941cd731ad35ee6a9c1a74e111d29f2
+Author: Jana Kostadinova <janakostadinova86@gmail.com>
+Date:   Mon Mar 25 18:52:10 2024 +0100
+
+    Call method makeBigStringForm in main class
+
+commit 895787c2a5546210769d01ee8028680c456509a8
+Author: Jana Kostadinova <janakostadinova86@gmail.com>
+Date:   Mon Mar 25 18:20:17 2024 +0100
+
+    Fix wrong condition in makeBigStringForm
+
+commit 28e327555ba2766009aa3298271d7f0aec6dc1e1
+Author: Jana Kostadinova <janakostadinova86@gmail.com>
+Date:   Mon Mar 25 18:17:21 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2163d51c387dec8069755a076d4c80e586824f79
+Author: Jana Kostadinova <janakostadinova86@gmail.com>
+Date:   Mon Mar 25 16:30:16 2024 +0100
+
+    Add starter code
+
+commit df22c504b8cd2ab900bdd642c6465ca45415af1f
+Author: Jana Kostadinova <janakostadinova86@gmail.com>
+Date:   Sun Mar 24 17:58:58 2024 +0100
+
+    Initial commit

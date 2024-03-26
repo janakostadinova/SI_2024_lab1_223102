@@ -1,0 +1,85 @@
+4.  mkdir SI_2024_lab1_223102 (pravime direktorium)
+cd SI_2024_lab1_223102 (vleguvame vo toj direktorium)
+git init (inicijalizirame Git vo direktoriumot)
+
+
+5. git remote add origin https://github.com/janakostadinova/SI_2024_lab1_223102.git (povrzuvanje na lokalniot
+repozitorium so oddalecheniot repozitorium)
+
+6. nano README.md (pravime datoteka, ja otvarame i vo nea zapishuvame)
+git add README.md (pravime add na datotekata)
+git commit -m "Initial commit" (pravime commit so poraka)
+
+7.git add SILab1Main.java (dodavanje na fajlot vo lokalniot repozitorium)
+git add SILab1_1.java (dodavanje na fajlot vo lokalniot repozitorium)
+git add SILab1_2.java (dodavanje na fajlot vo lokalniot repozitorium)
+git commit -m "Add starter code" (pravime commit so poraka)
+
+8.git push origin --all (gi sinhronizirame site granki so oddalecheniot repozitorium)
+
+9.git branch bug1 (otvarame granka bug1)
+git branch bug2 (otvarame granka bug2)
+
+10.git checkout bug1 (se prefrlame na grankata bug1)
+
+11.git add SILab1_1.java (pravime add na datotekata)
+git commit -m "Fix wrong condition in filterOddLengthStrings" (pravime commit so poraka)
+
+12.git checkout bug2 (se prefrlame na grankata bug2)
+
+13.git add SILab1_2.java (pravime add na datotekata)
+git commit -m "Fix wrong condition in makeBigStringForm" (pravime commit so poraka)
+
+14.git checkout bug1 (se prefrlame na grankata bug1)
+
+15.git add SILab1Main.java (pravime add na datotekata) 
+git commit -m "Call method filterOddLengthStrings in main class" (pravime commit so poraka)
+
+16.git checkout bug2 (se prefrlame na grankata bug2)
+
+17.git add SILab1Main.java (pravime add na datotekata)
+git commit -m "Call method makeBigStringForm in main class" (pravime commit so poraka)
+
+18. za bug1
+git checkout bug1 - se prefrlame na bug1
+git push origin bug1 - pushnuvame na git
+
+za bug2
+git checkout bug2 - se prefrlame na bug2
+git push origin bug2 - pushnuvame na git
+
+19.git checkout master (se prefrlame na grankata master)
+
+20.git merge bug1 (spojuvanje na grankata bug1 kon grankata master)
+nema konflikti, za da se izvrsi spojuvanjeto upotrebena e strategijata Fast-forward
+
+21.git push origin --all (gi sinhronizirame site granki so oddalecheniot repozitorium)
+
+22.git checkout bug2 (se prefrlame na grankata bug2)
+
+23.git rebase master 
+se slucuva konflikt
+za da go reshime, go otvarame fajlot so nano, nano SILab1Main.java, brisheme se shto ne 
+ni e potrebno i ostavame samo ona shto sakame da ostane, potoa gi zachuvuvame promenite
+za da se izvrsi spojuvanjeto upotrebena e strategijata recursive
+
+posle toa pravime 
+git add SILab1Main.java
+git rebase --continue
+
+24. git checkout master (se prefrlame na grankata master)
+
+25.git merge bug2
+nema konflikti, za da se izvrsi spojuvanjeto upotrebena e strategijata Fast-forward
+
+26.git push --all origin (gi sinhronizirame site granki so oddalecheniot repozitorium)
+
+27. git push origin bug2 --force (gi sinhronizirame site granki so oddalecheniot repozitorium so upotreba na
+--force za bug2)
+
+28.git log > logs.txt (ja dodavame datotekata logs.txt vo koja se iskopirani dosegasnite git logovi)
+ git add logs.txt (pravime add na datotekata logs.txt)
+git add 223102.txt (pravime add na datotekata 223102.txt)
+git commit -m "Final commit" (pravime commit so poraka)
+
+29. git push --all origin (gi sinhronizirame site granki so oddalecheniot repozitorium)
